@@ -1,0 +1,296 @@
+body {
+    @import url('https://fonts.googleapis.com/css?family=Montserrat+Subrayada&display=swap');
+
+    @import url('https://fonts.googleapis.com/css?family=Arvo:400,700&display=swap');
+
+    @import url('https://fonts.googleapis.com/css?family=Muli:400,500,600,700,900&display=swap');
+
+    font-family: 'Arvo', serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1f1d20;
+    /* background: linear-gradient(to bottom, #dbdae2 0%, #fff 60%); */
+}
+
+.main {
+    margin: auto;
+    font-family: 'Muli', sans-serif;
+    max-width: 900px;
+    background-color: #1f1d20;
+    box-shadow: #fff 0 -30px 70px;
+    border: #1f1d20 solid 0px;
+    border-radius: 0px 0px 7px 7px;
+    /*
+    padding-left: 390px;
+    padding-right: 390px;
+    */
+}
+
+header {
+    padding: 0 auto;
+    width: 900px;
+    height: 1100px;
+    max-width: 900px;
+    padding-top: 170px;
+    display: flex;
+    justify-content: space-around;
+    background: url(../img/1.png) no-repeat;
+    background-position: center top;
+    background-size: cover;
+    /*font-family: 'Montserrat Subrayada', sans-serif;*/
+    font-family: 'Montserrat Subrayada', sans-serif;
+    border: #1f1d20 solid 0px;
+    background-color: black;
+    letter-spacing: .08em;
+}
+
+.header__textone_style {
+    font-size: 52px;
+    color: #dedee8;
+    font-weight: ;
+}
+
+.header__texttwo_style {
+    font-size: 32px;
+    padding-top: 14px;
+    color: #f92809;
+}
+
+.section-one {
+    background-color: #1f1d20;
+    padding-top: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.border-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    border: #1f1d20 solid 0.1px;
+    background: #1f1d20;
+    background: linear-gradient(to bottom, #f92809 5%, #1f1d20 90%);
+    width: 800px;
+    margin-top: 40px;
+    border-radius: 7px;
+    padding-bottom: 10px;
+    box-shadow: #000 0 0 10px;
+}
+
+.section-one h3 {
+    border: #1f1d20 solid 0.1px;
+    border-radius: 7px;
+    /* background: linear-gradient(to top, #f92809 0%, #1f1d20 1000% ); */
+    background: #1f1d20;
+    padding: 10px 40px 10px 40px;
+    box-shadow: #000 0 0 40px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    /*  font-family: 'Montserrat Subrayada', sans-serif; */
+    font-family: 'Arvo', serif;
+    text-shadow: #000 0 0 4px;
+    background: linear-gradient(to top, #1f1d20 50%, #4a4a4a 100%);
+    letter-spacing: .02em;
+}
+
+.section-one p {
+    text-align: justify;
+    font-weight: 400;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    font-family: 'Arvo', serif;
+}
+
+.section-two {
+    background-color: #1f1d20;
+    padding-top: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 40px;
+    border: #1f1d20 solid 0px;
+    border-radius: 0 0 7px 7px;
+}
+
+.border-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    border: #1f1d20 solid 0.1px;
+    background: #1f1d20;
+    /* #4b4b4b */
+    /*  background: linear-gradient(to right, #1f1d20 10%, #f92809 50%, #1f1d20 100%); */
+    width: 800px;
+    margin-top: 40px;
+    border-radius: 7px;
+    padding-bottom: 20px;
+    box-shadow: #000 0 0 15px;
+    background: #4a4a4a;
+    background: linear-gradient(to bottom, #1f1d20 0%, #4a4a4a 300%);
+}
+
+.border-two h4 {
+    border: #1f1d20 solid 0.1px;
+    border-radius: 7px;
+    background: linear-gradient(to bottom, #f92809 -30%, #1f1d20 100%);
+    padding: 10px 40px 10px 40px;
+    box-shadow: red 0 0 10px;
+    text-align: center;
+    /* #4b4b4b */
+    color: white;
+    font-size: 24px;
+    text-transform: ;
+    margin-bottom: 10px;
+    text-shadow: black 0 0 4px;
+    /*   font-family: 'Montserrat Subrayada', sans-serif;*/
+    font-family: 'Arvo', serif;
+    letter-spacing: .02em;
+}
+
+.border-two p {
+    color: white;
+    text-align: justify;
+    font-weight: ;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Arvo', serif;
+}
+
+
+footer {
+    margin: 50px auto;
+    max-width: 900px;
+    background-color: #1f1d20;
+    box-shadow: #fff 0 30px 70px;
+    border: #1f1d20 solid 0px;
+    border-radius: 7px;
+    background: url(../img/2.png);
+    max-height: 1260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-end;
+    align-self: flex-end;
+    background-color: #1f1d20;
+    margin-bottom: 0px;
+}
+
+.footer-box {
+    width: 800px;
+    height: 1260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 750px;
+    font-size: 14px;
+}
+
+.footer-box h4 {
+    background: #4a4a4a;
+    color: #fff;
+    border-radius: 7px;
+    padding: 12px 40px;
+    font-size: 24px;
+    margin-bottom: 0px;
+    letter-spacing: .03em;
+    height: 30px;
+}
+
+.footer-box p {
+    background:
+        /*#e7e4e0*/
+        #4a4a4a;
+    color: #fff;
+    border-radius: 7px;
+    padding: 10px 10px;
+    font-weight: 500;
+    font-size: 13px;
+    margin-bottom: ;
+    text-align: justify;
+    letter-spacing: .02em;
+    height: 230px;
+}
+
+.footer-contacts {
+    position: ;
+    display: flex;
+    flex-direction: row;
+    background: #ef5f28;
+    border-radius: 7px;
+    margin-top: -5px;
+    padding-top: 0px;
+}
+
+.footer-contacts h4 {
+    display: flex;
+    flex-direction: row;
+    background: #ef5f28;
+    border-right: solid 2px white;
+    border-radius: 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 0px;
+    padding-right: 15px;
+    padding-left: 38px;
+    height: 30px;
+}
+
+.footer-contacts p {
+    display: flex;
+    flex-direction: row;
+    background: #ef5f28;
+    padding: 10px 77px 10px 20px;
+    font-weight: 700;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-family: 'Arvo', serif;
+    letter-spacing: .09em;
+    height: 30px;
+    font-family: 'Muli', sans-serif;
+}
+
+.footer-development {
+    color: #707070;
+    text-align: justify;
+    font-family: 'Muli', sans-serif;
+    font-size: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1em;
+    /*.06em; */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.development {
+    color: #f92809;
+    text-decoration: none;
+}
+
+.footer-development p {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.footer-development__correct {
+    margin-top: 2px;
+
+}
